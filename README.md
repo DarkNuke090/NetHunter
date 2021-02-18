@@ -10,3 +10,4 @@
     cd NetHunter
     chmod +x setup.sh
     bash setup.sh
+### Puede ser que se quede 'trabado' en alguna parte, pero no es asi, tarda tanto por que es la distribucion completa, asi que no te asustes! 🌲

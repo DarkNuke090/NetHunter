@@ -36,13 +36,10 @@ clear
     echo -e '     \e[97m[\e[91m1\e[97m] \e[93m Instalar NetHunter'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m Actualizar Script'
+    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m GitHub'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m GitHub'
-            echo
-        sleep 0.4
-    echo -e '     \e[97m[\e[91m4\e[97m] \e[93m Salir'
+    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Salir'
 
 ####################### Menu (Codigo) 🍃 #######################
 
@@ -91,57 +88,28 @@ while true; do
                     sleep 4
                             ./install-nethunter-termux
                     sleep 1.5; break;;
-        [2]* ) 
-            clear 
-                    sleep 0.2
-                echo -e '\e[97m     Actualizando script...'
-                    sleep 2
-            clear
-                echo -e '\e[97m     Clonando repositorio...'
-                    sleep 4
-                            cd /data/data/com.termux/files/home
-                            rm -r Actualizacion
-                            mkdir Actualizacion
-                            cd Actualizacion
-                            git clone https://github.com/DarkNuke090/NetHunter
-                            cd /data/data/com.termux/files/home
-                            rm -rf NetHunter
-                            cd Actualizacion
-                            mv NetHunter /data/data/com.termux/files/home
-                            rm -r Actualizacion
-                            cd
-                    sleep 0.3
-            echo
-                echo -e '\e[92m     Repositorio clonado correctamente! ✅'
-                    sleep 2
-            clear
-                echo -e '\e[97m     Instalando script...'
-                    sleep 4
-            clear
-                            cd NetHunter
-                            chmod +x setup.sh
-                    sleep 0.5
-            clear
-                echo -e '\e[97m     Iniciando script...'
-                bash setup.sh; break;;
-        [3]* )
+        [2]* )
             clear
                 echo -e '\e[97m     Abriendo GitHub!...'
-                    sleep 0.5
+                    sleep 1.5
                             termux-open https://github.com/DarkNuke090
                     sleep 10
             echo
                 echo -e '\e[97m     GitHub abierto correctamente!... ✅'
-                    sleep 2
+                    sleep 8
             clear
             echo
                 echo -e '\e[97m     Volviendo al menu... ✅'
-                    sleep 0.5
+                    sleep 4
                 bash setup.sh; break;;
-        [4]* )
+        [3]* )
             clear
-                echo -e '\e[92m     Espero de que tengas un excelente dia! \e[93matt: Nuke'
-                    sleep 2
+                echo -e '\e[92m     Espero de que tengas un excelente dia!'
+                    sleep 3
+            clear
+                echo -e '\e[93m     att: Nuke'
+                    sleep 5
+            clear
                 echo -e '\e[91m     Saliendo...'; break;;     
         * ) 
             clear

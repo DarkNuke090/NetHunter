@@ -108,10 +108,10 @@ while true; do
                             cd Actualizacion
                             git clone https://github.com/DarkNuke090/NetHunter
                             cd /data/data/com.termux/files/home
-                            rm -r NetHunter
+                            rm -rf NetHunter
                             cd Actualizacion
                             mv NetHunter /data/data/com.termux/files/home
-                            rm -r Actualizacion
+                            rm -rf Actualizacion
                     sleep 0.3
             echo
                 echo -e '\e[92m     Repositorio copiado correctamente! ✅'

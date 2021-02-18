@@ -4,9 +4,9 @@
 [WhatsApp 🍕](http://wa.me/13142001563)
 
 ## Instalacion 🍣
-1.    apt-get update -y && apt-get upgrade -y
-2.    apt-get install git -y
-3.    git clone https://github.com/DarkNuke090/NetHunter
-4.    cd NetHunter
-5.    chmod +x setup.sh
-6.    bash setup.sh
+    apt-get update -y && apt-get upgrade -y
+    apt-get install git -y
+    git clone https://github.com/DarkNuke090/NetHunter
+    cd NetHunter
+    chmod +x setup.sh
+    bash setup.sh

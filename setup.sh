@@ -26,7 +26,7 @@ clear
             echo
             echo
         sleep 0.6
-    echo -e '\e[93m                                      By: Nuke          Version 1.0.0'
+    echo -e '\e[93m                           By: Nuke          Version 1.0.0'
             echo
             echo
         sleep 0.6
@@ -100,6 +100,7 @@ while true; do
                 echo -e '\e[97m     Clonando repositorio...'
                     sleep 4
                             cd /data/data/com.termux/files/home
+                            rm -r Actualizacion
                             mkdir Actualizacion
                             cd Actualizacion
                             git clone https://github.com/DarkNuke090/NetHunter
@@ -107,10 +108,11 @@ while true; do
                             rm -rf NetHunter
                             cd Actualizacion
                             mv NetHunter /data/data/com.termux/files/home
-                            rm -rf Actualizacion
+                            rm -r Actualizacion
+                            cd
                     sleep 0.3
             echo
-                echo -e '\e[92m     Repositorio copiado correctamente! ✅'
+                echo -e '\e[92m     Repositorio clonado correctamente! ✅'
                     sleep 2
             clear
                 echo -e '\e[97m     Instalando script...'

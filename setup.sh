@@ -1,10 +1,6 @@
 #!/bin/bash
 # Hola! si copias codigo da creditos 😜🌴
 
-####################### Variables 💡 #######################
-
-version='1.0.0'
-
 ####################### Inicio 🍕 #######################
 
 clear
@@ -30,7 +26,7 @@ clear
             echo
             echo
         sleep 0.6
-    echo -e '\e[93m                                      By: Nuke          Version $version'
+    echo -e '\e[93m                                      By: Nuke          Version 1.0.0'
             echo
             echo
         sleep 0.6

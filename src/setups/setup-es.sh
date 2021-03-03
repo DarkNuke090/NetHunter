@@ -111,8 +111,8 @@ while true; do
                 echo -e '\e[93m     att: Nuke'
                     sleep 5
             clear
-                echo -e '\e[91m     Saliendo...'; break;;
-                    sleep 1.5    
+                echo -e '\e[91m     Saliendo...'
+                    sleep 1.5; break;;
         * ) 
             clear
                 echo -e "\e[91m     Opcion no valida!"

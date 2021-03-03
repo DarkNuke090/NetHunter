@@ -1,5 +1,4 @@
 ## NetHunter (Español)
-
 ![](https://github.com/DarkNuke090/NetHunter/blob/main/src/nethunter.png)
 ### NetHunter es un script que instala automaticamente Kali Linux NetHunter 🛠 en tu dispositivo android (siempre y cuando sea compatible) 🌝. Si quieres hablar conmigo contactame por WhatsApp! 🌚
 [WhatsApp 🍕](http://wa.me/13142001563)
@@ -18,7 +17,6 @@
 ### Puede ser que se quede 'trabado' en alguna parte, pero no es asi, tarda tanto por que es la distribucion completa, asi que no te asustes! 🌲
 
 ## NetHunter (English)
-
 ![](https://github.com/DarkNuke090/NetHunter/blob/main/src/nethunter.png)
 ### NetHunter is a script that automatically installs Kali Linux NetHunter 🛠 on your android device (as long as it is compatible) 🌝. If you want to talk to me, contact me on WhatsApp! 🌚
 [WhatsApp 🍕](http://wa.me/13142001563)

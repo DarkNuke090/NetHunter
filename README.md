@@ -12,5 +12,6 @@
     bash setup.sh
 ## Aqui algunas imagenes de como se ve con un cliente vnc!... 💭
 ![](https://i.ibb.co/C0Zbc8Q/Net-Hunter-2.jpg)
+#
 ![](https://i.ibb.co/wpMKSgb/Net-Hunter-1.jpg)
 ### Puede ser que se quede 'trabado' en alguna parte, pero no es asi, tarda tanto por que es la distribucion completa, asi que no te asustes! 🌲

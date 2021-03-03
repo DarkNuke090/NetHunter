@@ -39,7 +39,7 @@ clear
      echo
             echo
         sleep 0.6
-    echo -e '\e[93m                   By: Nuke'
+    echo -e '\e[93m                 By: Nuke'
             echo
             echo
         sleep 0.6

@@ -11,3 +11,5 @@
     chmod +x setup.sh
     bash setup.sh
 ### Puede ser que se quede 'trabado' en alguna parte, pero no es asi, tarda tanto por que es la distribucion completa, asi que no te asustes! 🌲
+## Aqui algunas muestras de como se podria llegar a ver con un cliente vnc!... 💭
+![](https://i.ibb.co/C0Zbc8Q/Net-Hunter-2.jpg)

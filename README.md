@@ -28,7 +28,7 @@
     cd NetHunter
     chmod +x setup.sh
     bash setup.sh
-## Here are some images of how it looks with a vnc client! ... 💭
+## Here are some images of how it looks with a vnc client!... 💭
 ![](https://i.ibb.co/C0Zbc8Q/Net-Hunter-2.jpg)
 #
 ![](https://i.ibb.co/wpMKSgb/Net-Hunter-1.jpg)

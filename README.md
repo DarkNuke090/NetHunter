@@ -32,6 +32,4 @@
 ![](https://i.ibb.co/wpMKSgb/Net-Hunter-1.jpg)
 ### It may be that it gets 'stuck' somewhere, but it is not, it takes so long because it is the complete distribution, so do not panic! 🌲
 ## Redes Sociales! 📣 - Social Networks! 📣
-#
 [WhatsApp 🍕](http://wa.me/13142001563)
-#

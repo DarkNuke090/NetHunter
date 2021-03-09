@@ -39,7 +39,10 @@ clear
     echo -e '     \e[97m[\e[91m2\e[97m] \e[93m GitHub'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Salir'
+    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Instalar vnc'
+            echo
+        sleep 0.4
+    echo -e '     \e[97m[\e[91m4\e[97m] \e[93m Salir'
 
 ####################### Menu (Codigo) 🍃 #######################
 
@@ -104,6 +107,21 @@ while true; do
                         cd src/setups
                 bash setup-es.sh; break;;
         [3]* )
+            clear
+                echo -e '\e[97m     Abriendo Mediafire!...'
+                    sleep 1.5
+                            termux-open https://www.mediafire.com/folder/teutilfp965it/VNC
+                    sleep 10
+            echo
+                echo -e '\e[97m     Mediafire abierto correctamente!... ✅'
+                    sleep 8
+            clear
+            echo
+                echo -e '\e[97m     Volviendo al menu... ✅'
+                    sleep 4
+                        cd src/setups
+                bash setup-es.sh; break;;
+        [4]* )
             clear
                 echo -e '\e[92m     Espero de que tengas un excelente dia!'
                     sleep 3

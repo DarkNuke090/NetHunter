@@ -3,12 +3,12 @@
 ### NetHunter es un script que instala automaticamente Kali Linux NetHunter 🛠 en tu dispositivo android (siempre y cuando sea compatible). 🌝 Si quieres hablar conmigo contactame por WhatsApp! 🌚
 
 ## Instalacion 🍣
-    apt-get update -y && apt-get upgrade -y
-    apt-get install git -y
-    git clone https://github.com/DarkNuke090/NetHunter
-    cd NetHunter
-    chmod +x setup.sh
-    bash setup.sh
+    $ apt-get update -y && apt-get upgrade -y
+    $ apt-get install git -y
+    $ git clone https://github.com/DarkNuke090/NetHunter
+    $ cd NetHunter
+    $ chmod +x setup.sh
+    $ bash setup.sh
 ## Aqui algunas imagenes de como se ve con un cliente vnc!... 💭
 ![](https://i.ibb.co/C0Zbc8Q/Net-Hunter-2.jpg)
 #
@@ -20,12 +20,12 @@
 ### NetHunter is a script that automatically installs Kali Linux NetHunter 🛠 on your android device (as long as it is compatible). 🌝 If you want to talk to me, contact me on WhatsApp! 🌚
 
 ## Installation 🍣
-    apt-get update -y && apt-get upgrade -y
-    apt-get install git -y
-    git clone https://github.com/DarkNuke090/NetHunter
-    cd NetHunter
-    chmod +x setup.sh
-    bash setup.sh
+    $ apt-get update -y && apt-get upgrade -y
+    $ apt-get install git -y
+    $ git clone https://github.com/DarkNuke090/NetHunter
+    $ cd NetHunter
+    $ chmod +x setup.sh
+    $ bash setup.sh
 ## Here are some images of how it looks with a vnc client!... 💭
 ![](https://i.ibb.co/C0Zbc8Q/Net-Hunter-2.jpg)
 #

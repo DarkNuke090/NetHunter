@@ -26,7 +26,7 @@ clear
             echo
             echo
         sleep 0.6
-    echo -e '\e[93m                           By: Nuke          Version 1.2.1'
+    echo -e '\e[93m                           By: Nuke          Version 1.2.2'
             echo
             echo
         sleep 0.6
@@ -36,7 +36,7 @@ clear
     echo -e '     \e[97m[\e[91m1\e[97m] \e[93m Instalar NetHunter'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m GitHub'
+    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m Abrir GitHub'
             echo
         sleep 0.4
     echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Instalar vnc'

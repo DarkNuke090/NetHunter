@@ -1,5 +1,5 @@
 #!/bin/bash
-# Hello! if you copy code gives credits 😜🌴
+# Hi! if you copy code gives credits 😜🌴
 
 ####################### Start 🍕 #######################
 
@@ -26,7 +26,7 @@ clear
             echo
             echo
         sleep 0.6
-    echo -e '\e[93m                           By: Nuke          Version 1.2.1'
+    echo -e '\e[93m                           By: Nuke          Version 1.2.2'
             echo
             echo
         sleep 0.6
@@ -36,10 +36,13 @@ clear
     echo -e '     \e[97m[\e[91m1\e[97m] \e[93m Install NetHunter'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m GitHub'
+    echo -e '     \e[97m[\e[91m2\e[97m] \e[93m Open GitHub'
             echo
         sleep 0.4
-    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Exit'
+    echo -e '     \e[97m[\e[91m3\e[97m] \e[93m Install vnc'
+            echo
+        sleep 0.4
+    echo -e '     \e[97m[\e[91m4\e[97m] \e[93m Exit'
 
 ####################### Menu (Code) 🍃 #######################
 
@@ -52,7 +55,7 @@ while true; do
         [1]* ) 
             clear
                     sleep 0.2
-                echo -e '\e[97m     Starting the Kali Linux NetHunter installation...'
+                echo -e '\e[97m     Starting the installation of Kali Linux NetHunter...'
                     sleep 4
             clear
                 echo -e '\e[91m     Remember to have your terminal updated!!! Otherwise it could fail!!!'
@@ -63,7 +66,7 @@ while true; do
                             apt-get install wget -y &> /dev/null
                     sleep 0.1
             echo
-                echo -e '\e[92m     Wget has been installed successfully! ✅'
+                echo -e '\e[92m     Wget has been installed correctly! ✅'
                     sleep 2
             clear
                             cd /data/data/com.termux/files/home
@@ -95,15 +98,30 @@ while true; do
                             termux-open https://github.com/DarkNuke090
                     sleep 10
             echo
-                echo -e '\e[97m     GitHub opened successfully!... ✅'
+                echo -e '\e[97m     GitHub opened correctly!... ✅'
                     sleep 8
             clear
             echo
                 echo -e '\e[97m     Back to the menu... ✅'
                     sleep 4
                         cd src/setups
-                bash setup-en.sh; break;;
+                bash setup-es.sh; break;;
         [3]* )
+            clear
+                echo -e '\e[97m     Opening Mediafire!...'
+                    sleep 1.5
+                            termux-open https://www.mediafire.com/folder/teutilfp965it/VNC
+                    sleep 10
+            echo
+                echo -e '\e[97m     Mediafire opened correctly!... ✅'
+                    sleep 8
+            clear
+            echo
+                echo -e '\e[97m     Back to the menu... ✅'
+                    sleep 4
+                        cd src/setups
+                bash setup-es.sh; break;;
+        [4]* )
             clear
                 echo -e '\e[92m     I hope you have a great day!'
                     sleep 3
@@ -112,14 +130,14 @@ while true; do
                     sleep 5
             clear
                 echo -e '\e[91m     Coming out...'
-                    sleep 1.5; break;;    
+                    sleep 1.5; break;;
         * ) 
             clear
                 echo -e "\e[91m     Option not valid!"
                     sleep 5
                            cd src/setups
-                                 bash setup-en.sh;;
+                                 bash setup-es.sh;;
     esac
 done
 
-####################### End? 🌲 #######################
+####################### Fin? 🌲 #######################

@@ -121,7 +121,7 @@ while true; do
                    sleep 0.15
                 echo -e '           \e[93m░░░\e[36m╚═╝\e[93m░░░\e[36m╚═╝\e[93m░░\e[36m╚══╝\e[93m░\e[36m╚════╝\e[93m░'
                    sleep 0.15
-                            cd src/vnc/
+                            cd src/vnc
             echo
             echo
                     sleep 0.6

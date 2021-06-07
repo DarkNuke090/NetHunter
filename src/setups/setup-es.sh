@@ -104,7 +104,7 @@ while true; do
             echo
                 echo -e '\e[97m     Volviendo al \e[92mmenu\e[97m...'
                     sleep 4
-                        cd src/setups
+                        cd /data/data/com.termux/files/home/NetHunter/src/setups
                 bash setup-es.sh; break;;
         [3]* )
 ####################### Menu VNC 🌴 #######################
@@ -171,7 +171,7 @@ while true; do
             clear
                         echo -e '\e[97m     Volviendo al \e[92mmenu\e[97m...'
                     sleep 4
-                            cd src/setups
+                            cd /data/data/com.termux/files/home/NetHunter/src/setups
                                 bash setup-es.sh; break;;
         [4]* )
             clear
@@ -187,7 +187,7 @@ while true; do
             clear
                 echo -e "\e[91m     Opcion no valida!"
                     sleep 5
-                           cd src/setups
+                           cd /data/data/com.termux/files/home/NetHunter/src/setups
                                  bash setup-es.sh;;
     esac
 done

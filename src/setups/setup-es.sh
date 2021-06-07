@@ -121,7 +121,7 @@ while true; do
                    sleep 0.15
                 echo -e '           \e[93m░░░\e[36m╚═╝\e[93m░░░\e[36m╚═╝\e[93m░░\e[36m╚══╝\e[93m░\e[36m╚════╝\e[93m░'
                    sleep 0.15
-                            cd src/vnc
+                            cd /data/data/com.termux/files/home/NetHunter/src/vnc
             echo
             echo
                     sleep 0.6
@@ -140,6 +140,7 @@ while true; do
                     sleep 0.2
                 read -p '         >> Selecciona una opcion: ' respuesta
                     if [ $respuesta == 1 ]; then
+                            cd /data/data/com.termux/files/home/NetHunter/src/vnc
             clear
                     sleep 0.5
                         echo -e '\e[97m   Iniciando la instalacion de \e[5m\e[93mAndroidVNC\e[25m\e[97m...'
@@ -151,6 +152,7 @@ while true; do
                         echo -e '\e[97m   Instalacion \e[92mcompletada\e[97m!'
                     sleep 2
                     elif [ $respuesta == 2 ]; then
+                            cd /data/data/com.termux/files/home/NetHunter/src/vnc
             clear
                     sleep 0.5
                         echo -e '\e[97m   Iniciando la instalacion de \e[5m\e[93mNetHunter-KeX\e[25m\e[97m...'

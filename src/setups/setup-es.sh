@@ -146,7 +146,7 @@ while true; do
                         echo -e '\e[97m   Iniciando la instalacion de \e[5m\e[93mAndroidVNC\e[25m\e[97m...'
                     sleep 2
                             xdg-open --view androidVNC.apk
-                    sleep 7
+                    sleep 9
             clear
                     sleep 0.3
                         echo -e '\e[97m   Instalacion \e[92mcompletada\e[97m!'
@@ -158,7 +158,7 @@ while true; do
                         echo -e '\e[97m   Iniciando la instalacion de \e[5m\e[93mNetHunter-KeX\e[25m\e[97m...'
                     sleep 2
                             xdg-open --view NetHunter KeX.apk
-                    sleep 7
+                    sleep 9
             clear
                     sleep 0.3
                         echo -e '\e[97m   Instalacion \e[92mcompletada\e[97m!'

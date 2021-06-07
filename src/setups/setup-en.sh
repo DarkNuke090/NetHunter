@@ -105,7 +105,7 @@ while true; do
                 echo -e '\e[97m     Back to the menu... ✅'
                     sleep 4
                         cd src/setups
-                bash setup-es.sh; break;;
+                bash setup-en.sh; break;;
         [3]* )
             clear
                 echo -e '\e[97m     Opening Mediafire!...'
@@ -120,7 +120,7 @@ while true; do
                 echo -e '\e[97m     Back to the menu... ✅'
                     sleep 4
                         cd src/setups
-                bash setup-es.sh; break;;
+                bash setup-en.sh; break;;
         [4]* )
             clear
                 echo -e '\e[92m     I hope you have a great day!'
@@ -136,7 +136,7 @@ while true; do
                 echo -e "\e[91m     Option not valid!"
                     sleep 5
                            cd src/setups
-                                 bash setup-es.sh;;
+                                 bash setup-en.sh;;
     esac
 done
 

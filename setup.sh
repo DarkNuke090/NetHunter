@@ -3,9 +3,9 @@
 
 ####################### Variables 💡 #######################
 
-DIRECTORIO_IDIOMA=/data/data/com.termux/files/home/NetHunter/src/idioma
-DIRECTORIO_HOME=/data/data/com.termux/files/home/NetHunter
-DIRECTORIO_ACTUAL=echo $PWD
+DIRECTORIO_IDIOMA='/data/data/com.termux/files/home/NetHunter/src/idioma'
+DIRECTORIO_HOME='/data/data/com.termux/files/home/NetHunter'
+DIRECTORIO_ACTUAL='echo $PWD'
 
 ####################### Inicio 🍕 #######################
 

@@ -7,12 +7,6 @@ DIRECTORIO_IDIOMA=/data/data/com.termux/files/home/NetHunter/src/idioma
 
 ####################### Inicio 🍕 #######################
 
-   if [ -d "$DIRECTORIO_IDIOMA" ]; then
-      echo -e 'u'
-   else
-      echo -e 'a'
-   fi
-   sleep 10
 clear
     echo -e '\e[91m                  Amplia la pantalla con los dedos para verlo mejor'
         sleep 2.5

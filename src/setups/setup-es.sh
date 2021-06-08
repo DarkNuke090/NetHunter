@@ -22,7 +22,7 @@ banner_principal(){
                 echo
                 echo
             sleep 0.6
-        echo -e '\e[93m                           By: \e[1mNuke          \e[24mVersion \e[5m1.2.4'
+        echo -e '\e[93m                           By: \e[1mNuke          \e[24mVersion \e[5m1.2.6'
                 echo
         echo -e '\e[93m                                                   \e[4mdate\e[24m             '
                 echo
@@ -156,7 +156,7 @@ while true; do
             echo
                     sleep 0.5
                 echo -e '     \e[97m[\e[91m3\e[97m] \e[93mMenu Principal'
-                    sleep 0.2
+                    sleep 0.5
             echo
                 read -p '         >> Selecciona una opcion: ' respuesta
                     if [ $respuesta == 1 ]; then
@@ -177,7 +177,7 @@ while true; do
                     sleep 0.5
                         echo -e '\e[97m   Iniciando la instalacion de \e[5m\e[93mNetHunter-KeX\e[25m\e[97m...'
                     sleep 2
-                            xdg-open --view NetHunter KeX.apk
+                            xdg-open --view NetHunter_KeX.apk
                     sleep 9
             clear
                     sleep 0.3
@@ -209,7 +209,8 @@ while true; do
                     sleep 5
             clear
                 echo -e '\e[91m     Saliendo...'
-                    sleep 1.5; break;;
+                    sleep 1.5
+                        exit; break;;
         * ) 
             clear
                 echo -e "\e[91m     Opcion no valida!"

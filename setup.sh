@@ -5,7 +5,7 @@
 
 DIRECTORIO_IDIOMA='/data/data/com.termux/files/home/NetHunter/src/idioma'
 DIRECTORIO_HOME='/data/data/com.termux/files/home/NetHunter'
-DIRECTORIO_ACTUAL='echo $PWD'
+#DIRECTORIO_ACTUAL=echo $PWD
 
 ####################### Inicio 🍕 #######################
 
@@ -14,10 +14,11 @@ DIRECTORIO_ACTUAL='echo $PWD'
                echo
       echo -e '  \e[34m[-] \e[97m\e[5mCargando\e[25m...'
          sleep 2
-   if [ '$DIRECTORIO_ACTUAL' != '$DIRECTORIO_HOME' ]; then
+   if [ '$PWD' != '$DIRECTORIO_HOME' ]; then
          sleep 1.5
                echo
       echo -e '  \e[24m\e[97m[\e[91m!\e[97m] \e[91m\e[1mError! \e[97m\e[24mPor favor instala este script en el directorio \e[1mhome!\e[24m'
+               echo
          sleep 3
          exit
    else

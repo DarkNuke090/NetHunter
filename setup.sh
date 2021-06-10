@@ -11,14 +11,22 @@ DIRECTORIO_HOME='/data/data/com.termux/files/home/NetHunter'
       clear
          sleep 1
                echo
-      echo -e '  \e[34m[-] \e[97m\e[5mCargando\e[25m...'
+         echo -e '  \e[34m[-] \e[97m\e[5mLoading\e[25m...'
          sleep 2
    if [ $PWD != $DIRECTORIO_HOME ]; then
          sleep 1.5
                echo
+      echo -e '  \e[24m\e[97m[\e[91m!\e[97m] \e[91m\e[1mError! \e[97m\e[24mPlease run this script in the directory \e[1mhome!\e[24m'
+               echo
+         sleep 4
+      clear
+         sleep 1
+         echo -e '  \e[34m[-] \e[97m\e[5mCargando\e[25m...'
+         sleep 3
+               echo
       echo -e '  \e[24m\e[97m[\e[91m!\e[97m] \e[91m\e[1mError! \e[97m\e[24mPor favor ejecuta este script en el directorio \e[1mhome!\e[24m'
                echo
-         sleep 3
+         sleep 4
          exit
    else
       clear
